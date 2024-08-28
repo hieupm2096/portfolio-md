@@ -52,7 +52,7 @@ All notable changes to this project will be documented in this file. See [standa
 - adding data-theme to tailwind config (#319)
 - avoid `undefined` when passing class-name as prop (#270)
 - add $CURRENT_TIMEZONE_OFFSET in custom code snippets (#264)
-- display `Updated` in posts only when modDatetime > pubDatetime (#258)
+- display `Updated` in posts only when last_edited_time > created_time (#258)
 - add SITE.title in PostDetails title tag for consistent look (#247)
 - add trailing slash to links to avoid extra redirects (#246)
 - update incorrect typo in predefined-color-schemes.md (#245)
@@ -70,7 +70,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * add heading links to PostDetails page ([#232](https://github.com/satnaing/astro-paper/issues/232)) ([742baff](https://github.com/satnaing/astro-paper/commit/742baff2c9bd47e0762f5d65f5b47a4d28014175))
-* hide posts in Prod with future pubDatetime  ([#234](https://github.com/satnaing/astro-paper/issues/234)) ([3efa05c](https://github.com/satnaing/astro-paper/commit/3efa05cc101688c32fc531af0122023d3ce82f08))
+* hide posts in Prod with future created_time  ([#234](https://github.com/satnaing/astro-paper/issues/234)) ([3efa05c](https://github.com/satnaing/astro-paper/commit/3efa05cc101688c32fc531af0122023d3ce82f08))
 
 ### Bug Fixes
 
@@ -98,7 +98,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * resolve accessibility issues ([#226](https://github.com/satnaing/astro-paper/issues/226))
-* solve modDatetime type errors ([#214](https://github.com/satnaing/astro-paper/issues/214))
+* solve last_edited_time type errors ([#214](https://github.com/satnaing/astro-paper/issues/214))
 * remove SocialObjects type and update SocialObjects type ([#225](https://github.com/satnaing/astro-paper/issues/225))
 
 ### Others
@@ -150,7 +150,7 @@ All notable changes to this project will be documented in this file. See [standa
 * solve invisible text code block issue in light-mode ([#163](https://github.com/satnaing/astro-paper/issues/163)) ([64b3a28](https://github.com/satnaing/astro-paper/commit/64b3a286e6e3ff1dff7cf4ca0fc8fafc222cabcd))
 * sort posts in [tag] page ([#101](https://github.com/satnaing/astro-paper/issues/101)) ([b571816](https://github.com/satnaing/astro-paper/commit/b571816dcddc72a07147389090502c09025b28a6))
 * update auto-gen OG images to allow special char usage in title ([1933a6b](https://github.com/satnaing/astro-paper/commit/1933a6beae7b4e2558b808d1f8a5c124f1244138)), closes [#103](https://github.com/satnaing/astro-paper/issues/103) [#88](https://github.com/satnaing/astro-paper/issues/88)
-* update rss pubDate to prioritize modDatetime if exists ([e1514b4](https://github.com/satnaing/astro-paper/commit/e1514b41024bc10bcafcc4af548a6ebe0e093468))
+* update rss pubDate to prioritize last_edited_time if exists ([e1514b4](https://github.com/satnaing/astro-paper/commit/e1514b41024bc10bcafcc4af548a6ebe0e093468))
 * update tailwind base styles config ([#116](https://github.com/satnaing/astro-paper/issues/116)) ([4a03558](https://github.com/satnaing/astro-paper/commit/4a0355865081d07d05d9d758f520e411952a1063))
 * update title of the blog nowrap ([87b3e5b](https://github.com/satnaing/astro-paper/commit/87b3e5b8cd7d424b3e43e6d5abed6d21195aa759))
 
