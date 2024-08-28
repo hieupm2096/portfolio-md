@@ -2,8 +2,9 @@
 id: 09599d6c-2809-4935-809f-0798178d4573
 title: SOLID Principles
 created_time: 2024-06-17T10:23:00.000Z
-last_edited_time: 2024-08-28T20:00:00.000Z
+last_edited_time: 2024-08-28T20:30:00.000Z
 draft: false
+description: SOLID
 featured: false
 sync: ready
 slug: solid-principles

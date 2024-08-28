@@ -2,8 +2,11 @@
 id: 5e163c1c-3690-4578-89b8-9ce1791ab112
 title: BLoC in action
 created_time: 2024-06-23T04:24:00.000Z
-last_edited_time: 2024-08-28T20:00:00.000Z
+last_edited_time: 2024-08-28T20:32:00.000Z
 draft: false
+description: >-
+  BLoC - Business Logic Component is a state management mechanism in Flutter
+  which widely adopted across since the dawn of Flutter.
 featured: false
 sync: ready
 slug: bloc-in-action

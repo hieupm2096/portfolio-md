@@ -2,8 +2,11 @@
 id: c7dd0c08-610e-4f25-841c-190daca107fb
 title: 'Design Pattern: Chain of Responsibility'
 created_time: 2024-06-16T17:47:00.000Z
-last_edited_time: 2024-08-28T20:00:00.000Z
+last_edited_time: 2024-08-28T20:29:00.000Z
 draft: false
+description: >-
+  Chain of responsibility is a behavioral pattern that let you pass request
+  along a chain of handlers
 featured: false
 sync: ready
 slug: design-pattern-chain-of-responsibility

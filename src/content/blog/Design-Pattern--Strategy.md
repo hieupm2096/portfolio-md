@@ -2,8 +2,9 @@
 id: 6c20eb15-92f4-44b9-829f-b6e5cea049d8
 title: 'Design Pattern: Strategy'
 created_time: 2024-06-16T12:29:00.000Z
-last_edited_time: 2024-08-28T20:00:00.000Z
+last_edited_time: 2024-08-28T20:29:00.000Z
 draft: false
+description: Strategy
 featured: false
 sync: ready
 slug: design-pattern-strategy
