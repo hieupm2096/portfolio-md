@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://hieupmmm.com", // replace this with your deployed domain
+  website: "https://hieupmmmmm.netlify.app", // replace this with your deployed domain
   author: "Hieu Pham",
-  profile: "https://hieupmmm.com",
+  profile: "https://hieupmmmmm.netlify.app",
   desc: "A mobile developer who loves building apps.",
   title: "Hieupmmm",
   ogImage: "og-image.png",

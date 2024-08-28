@@ -82,10 +82,12 @@ const structuredData = {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL} />
-    <meta property="og:image" content={socialImageURL} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content={title} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content={description} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content={canonicalURL} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content={socialImageURL} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:image:secure_url" content={socialImageURL} />
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="image/png" />
 
     <!-- Article Published/Modified time -->
     {
