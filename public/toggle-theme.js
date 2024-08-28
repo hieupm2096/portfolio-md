@@ -28,6 +28,14 @@ function reflectPreference() {
 
   document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
 
+  // Set logo image
+  document
+    .querySelector("#logo")
+    ?.setAttribute(
+      "src",
+      `/assets/${themeValue == "dark" ? "logo-dark.png" : "logo-light.png"}`
+    );
+
   // Get a reference to the body element
   const body = document.body;
 

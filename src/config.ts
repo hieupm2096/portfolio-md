@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://hieupmmm.com",
   desc: "A mobile developer who loves building apps.",
   title: "Hieupmmm",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og-image.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
@@ -19,10 +19,9 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
+  enable: true,
+  width: 100,
+  height: 100,
 };
 
 export const SOCIALS: SocialObjects = [
