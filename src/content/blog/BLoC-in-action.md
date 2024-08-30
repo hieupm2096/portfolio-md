@@ -2,7 +2,7 @@
 id: 5e163c1c-3690-4578-89b8-9ce1791ab112
 title: BLoC in action
 created_time: 2024-06-23T04:24:00.000Z
-last_edited_time: 2024-08-28T20:32:00.000Z
+last_edited_time: 2024-08-30T07:24:00.000Z
 draft: false
 description: >-
   BLoC - Business Logic Component is a state management mechanism in Flutter
@@ -12,7 +12,7 @@ sync: ready
 slug: bloc-in-action
 tags:
   - flutter
-_thumbnail: src/assets/images/Untitled_qpYrZEo9.png
+_thumbnail: src/assets/images/p9d9ektwfohx2u7qnyc8_hwtBBIW3.png
 
 ---
 
@@ -32,7 +32,7 @@ You use `Event` to trigger `Bloc` and it is passed into `Bloc` from the UI layer
 
 The data flow in Bloc is unidirectional, which means you can only emit new state inside the scope of bloc, nowhere else. The states in bloc are also immutable so to notify that there are changes in the state, you must emit a new instance of object instead of just modifying the old one.
 
-![](src/assets/images/Untitled_qpYrZEo9.png)
+![](src/assets/images/p9d9ektwfohx2u7qnyc8_hwtBBIW3.png)
 
 ## Create a bloc
 
